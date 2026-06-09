@@ -14,11 +14,11 @@ This project trains a **3-layer MLP neural network** on the Heart Failure Predic
 
 ```
 heart_disease_project/
-├── app.py                      # Streamlit web application
-├── heart_disease_model.pth     # Saved PyTorch model weights
-├── heart_disease_train.py      # Training script
-├── heart.csv                   # Dataset
-├── requirements.txt            # Dependencies
+├── app.py                             # Streamlit web application
+├── heart_disease_model.pth            # Saved PyTorch model weights
+├── Heart Disease(PyTorch).ipynb       # Training Notebook
+├── heart.csv                          # Dataset
+├── requirements.txt                   # Dependencies
 └── README.md
 ```
 
@@ -81,8 +81,8 @@ Output (0 = No Disease, 1 = Heart Disease)
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/mohammedwaleederfaan-coder/heart-disease-predictor.git
-cd heart-disease-predictor
+git clone https://github.com/mohammedwaleederfaan-coder/heart_disease.git
+cd heart_disease
 ```
 
 **2. Install dependencies**
@@ -96,18 +96,6 @@ streamlit run app.py
 ```
 
 Open your browser at `http://localhost:8501`
-
----
-
-## ☁️ Deploy on Streamlit Cloud
-
-1. Push the project to a **public GitHub repository**
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in
-3. Click **New app** → select your repo
-4. Set **Main file path** to `app.py`
-5. Click **Deploy** 🚀
-
-> ⚠️ Make sure `heart_disease_model.pth` is committed to the repo — the app won't load without it.
 
 ---
 
