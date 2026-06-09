@@ -1,4 +1,4 @@
-# 🫀 Heart Disease Risk Predictor
+# Heart Disease Risk Predictor
 
 A deep learning web application that predicts cardiovascular disease risk from clinical patient data, built with **PyTorch** and deployed with **Streamlit**.
 
